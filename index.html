@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>J.Jordi</title>
+  <link rel="shortcut icon" href="a.png">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body id="page-top">
+<div class="location"></div>
+<div class="wrapper">
+    <ul class="bg-bubbles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+  <div class="bulat">
+        <span></span>
+        <span></span>
+        <span></span>
+  </div>  
+
+  <div id="watch">
+    
+      <script type="text/javascript" src="jquery-3.5.0.min.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function () {
+          function clock() {
+            var now = new Date();
+            var secs = ('0' + now.getSeconds()).slice(-2);
+            var mins = ('0' + now.getMinutes()).slice(-2);
+            var hr =   ('0' + now.getHours()).slice(-2);
+            var Time = hr + ":" + mins + ":" + secs;
+            document.getElementById("watch").innerHTML = Time;
+            requestAnimationFrame(clock);
+          }
+
+          requestAnimationFrame(clock);
+        });
+      </script>
+  </div>
+  <div class="salju">
+  <script src="salju.js"></script>
+  </div>
+  <div id="quote">
+  <script type="text/javascript"></script>
+  <script>var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  var greeting;
+
+      H = h;
+      M = m;
+      S = s;
+
+      if (H < 5) {
+          greeting = 'Sleep Tight Baby !';
+      }
+      else if (H < 9) {
+          greeting = 'Have a nice Day !';
+      }
+      else if (H < 12) {
+          greeting = "I'm not the best, but i'm trying my best";
+      }
+      else if (H < 15) {
+          greeting = 'YOU CAN DO IT ! ';
+      }
+      else if (H < 20) {
+          greeting = 'TAKE A REST !';
+      }
+      else if (H < 22) {
+          greeting = 'Do you miss me? You have my number right? ;)';
+      }
+      else if (H <= 23) {
+          greeting = 'I MISS YOU ! ';
+      }
+
+  document.write('<h1>' + greeting + '</h1>');
+  </script>
+  </div>
+
+  <div class="jj">
+  <script>
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    var greeting;
+
+        H = h;
+        M = m;
+        S = s;
+
+        if (H < 5) {
+            greeting = 'Have a Good Night :)';
+        }
+        else if (H < 9) {
+            greeting = 'Good Morning :)';
+        }
+        else if (H < 12) {
+            greeting = 'Good Afternoon :)';
+        }
+        else if (H < 15) {
+            greeting = 'Good Afternoon :) ';
+        }
+        else if (H < 20) {
+            greeting = 'Good Evening :)';
+        }
+        else if (H < 22) {
+            greeting = 'Good Night :)';
+        }
+        else if (H <= 23) {
+            greeting = 'Good Night :)';
+        }
+  document.write('<h1>' + greeting + '</h1>');
+  </script>
+  </div>
+
+</div>
+<!-- <div class="container">
+<nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top" id="mainNav">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toogle navigation" >
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="https://instagram.com/johjordi"><i class="fab fa-instagram"></i></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="https://twitter.com/jojordii"><i class="fab fa-twitter"></i></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="https://fb.com/jordiajahah"><i class="fab fa-facebook-f"></i></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="https://www.youtube.com/channel/UCTSBcR-u19X53MJm8AC21Ig"><i class="fab fa-youtube"></i></a>
+      </li>
+    </ul>
+    </div>
+</div> -->
+    <!-- <div class="container">    
+    <a href="https://instagram.com/johjordi"><i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com/jojordii"><i class="fab fa-twitter"></i></a>
+    <a href="https://fb.com/jordiajahah"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.youtube.com/channel/UCTSBcR-u19X53MJm8AC21Ig"><i class="fab fa-youtube"></i></a>
+  -->
+  
+</nav>
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/popper.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="loc.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
